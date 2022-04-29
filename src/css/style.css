@@ -174,15 +174,137 @@ main{
     font-family: "Franklin Gothic Medium";
     color: #263244;
     font-weight: 30px;
+    margin-top: 50px;
    
-    
 }
-  
+
+.myImg:{
+    display: block; 
+    margin: 0 auto;
+}
+
+.avatar{
+    margin-top: 60px;
+    margin-bottom: 25px;
+
+}
+
 .blog1>p{
     font-size: 20px;
     font-family: "Calibri";
-    color: rgb(63, 73, 90);
+    font-weight: 600;
+    color: #737984;
+    text-align: left;
+    margin: 0px 450px 40px 450px;
+
+}
+
+.contmeleft{
+    border-radius: 8px;
+    width: 180px;
+    border: 2px solid #6f707e;
+    padding: 0px 16px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+   font-size: 15px;
+   font-family: "Calibri";
+    cursor: pointer;
+    
+}
+
+
+.download{
+    margin-right: 5px;
+}
+
+.contmeleft{
+    transition: 300ms;
+    transform: scale(1);
+    background: #a1d9d1;
+    box-shadow: 0px 5px #389cb5, 0px 10px 10px rgba(0,0,0,0.25);
+    z-index: -2;
+}
+
+.contmeleft:hover{
+  transform: translateY(5px);
+ box-shadow: 0px 0px transparent, 0px 5px 10px rgba(0,0,0,0.25);
+}
+
+.contmeleft:focus{
+  outline: none;
+}
+
+.blog2{
+    width: 100%;
+    height: 100%;
+    background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat;
+}
+
+.blog2 h2{
+    line-height: 200px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium";
+    color: #263244;
+    font-weight: 30px;
+    margin-top: 100px;
     text-align: center;
 }
+
+.myImg2{
+    display: block; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container1>div{
+    display: inline-block;
+    padding: 70px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#logo, #text{
+    float: none;
+    margin-bottom: 100px; 
+    
+}
+
+.blog2 h3{
+    font-size: 20px;
+    margin-top: 35px;
+    padding-bottom: 15px;
+    color: #d48d2f;
+    font-weight: 700;
+}
+
+.myImg3{
+    display: block; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blog3{
+    margin: 0 auto;
+    padding-left: 250px;
+    text-align: left;
+    
+}
+
+.banner{
+    margin-left: -400px;
+    margin-bottom: -180px;
+}
+
+
+
+
+
+
+
 
 
