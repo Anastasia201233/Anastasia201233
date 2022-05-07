@@ -7,13 +7,15 @@
 	<meta name="keywords" content="сайт визитка">
 	<meta name="robots" content="all">
 	<meta property="og:title" content="Это моя первая страница...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Андрей Браун - веб-разработчик</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-    <body>
+    <body><div class="loader"></div>
+   
 	    <header>
 	        <nav>
 	            <div class="logo">Андрей Браун</div>
@@ -76,15 +78,14 @@
                     <p1><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, veritatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quae!</small></p1> 
                     <img class="banner" src="img/banner.png" alt>
                     <div class="textcols"> 
-                       <div class="textcols-item">
-                        <p2 style="line-height: 1.5"><b>CLIENT</b><br>какая-то компания</p2>
+                       <div class="textcols-item1">
+                        <p2 style="line-height: 1.5" width=""><b>CLIENT</b><br>какая-то компания</p2>
                         <p3 style="line-height: 1.5"><b>WEBSITE</b><br>https://www.somedomain.com</p3><br><input type="submit" value="VISIT LIVE SITE"></div>
-                         <div class="textcols-item">
+                         <div class="textcols-item2">
                          <p4 style="line-height: 1.5"><b>Название проекта</b>
                          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                          <br>Eum quibusdam earum, voluptates, qui quaerat minima ratione, distinctio fuga similique, eligendi incidunt optio.
                              <br>Obcaecati saepe excepturi assumenda animi sed nesciunt fugiat nemo corporis</p4>
-                             
                          </div>
                         </div>
                        </div>
@@ -93,15 +94,16 @@
          <div class="calculator">  
            <h1>Расчет стоимости</h1>
              <div><form action="#">
-             <p>ТИП САЙТА</p><select name="list" id="list"><option value="Opt1">Выберите пункт</option></select>
-             <p>Дизайн</p><select name="list" id="list"><option value="Opt1">Выберите пункт</option></select>
-             <p>Адаптивность</p><select name="list" id="list"><option value="Opt1">Выберите пункт</option></select>
+             <p>ТИП САЙТА</p><select name="list" id="list"><option value="Opt1">Выберите пункт...</option><option>Сайт-визитка</option><option>Интернет-магазин</option><option>Блог</option></select>
+             <p>Дизайн</p><select name="list" id="list"><option value="Opt1">Выберите пункт...</option></select>
+             <p>Адаптивность</p><select name="list" id="list"><option value="Opt1">Выберите пункт...</option><option>Адаптивный макет</option><option>Отзывчивый макет</option><option>Смешанный макет</option></select>
              </form>
          </div>
-         <h4>Сроки</h4>0
-         <h4>Стоимость</h4>0
+         <h4>Сроки<span></span><input type="text" name="text_input" value="0"></h4>
+         <h4>Стоимость<label for="#"></label><input type="text" name="text_input" value="0"></h4>
          </div>
-         <div class="static">      
+         
+            <div class="static">      
              <span><h2>Немного статистики</h2></span>
              <img class="myImg4" src="img/trait.png" alt>
                         <div id="logo1"></div>
@@ -121,41 +123,44 @@
              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam laboriosam aperiam cumque odit,<br>corporis optio saepe eius accusantium ipsam perspiciatis!</p>
              <p><b>Михаил,</b>Ген директор ПАО "Газпром"</p>
          </div>
-     <form action="#">
-        <label for="rad1">кнопка 1</label>
+    
+     <form action="#" class="radio">
+        <label for="rad1"></label>
         <input id="rad1" type="radio" name="Text_input1">
-        <label for="rad2">кнопка 2</label>
+        <label for="rad2"></label>
         <input id="rad2" type="radio" name="Text_input1">
-         кнопка 3<input type="radio" name="Text_input1" value="3">
+         <input type="radio" name="Text_input1" value="3">
     </form>
-         <div class="contact">
-            <span><h2>МОИ КОНТАКТЫ</h2></span>
-            <img src="img/trait.png" alt>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos omnis minus voluptatibus distinctio veritatis laborum, vitae excepturi, voluptates tempora magni!</p>
-            <img src="img/%D0%B3%D0%B5%D0%BE.png" alt>
-            <p>Санкт-Петербург<br>Невский проспект 11</p>
-            <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt>
-            <p>info@companyname.com</p>
-            <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt>
-         </div>
-         <h3>МОИ КОНТАКТЫ</h3>
-         <img src="img/trait.png" alt>
-         <div><form action><input type="text" name="text_imput" value placeholder="Введите ваше имя">
-            <input type="mail">
-            <textarea name="name1" id cols="40" rows="10"></textarea>
-             <input type="submit" value="отправить"></form>
-         </div>
+         <div class="contacts">
+            <h2>МОИ КОНТАКТЫ</h2>
+            <div><img class="myImg6" src="img/trait.png" alt="image"></div>
+            <br>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos omnis minus voluptatibus distinctio veritatis laborum, vitae excepturi, voluptates tempora magni!</h3>
+            <div><img src="img/%D0%B3%D0%B5%D0%BE.png" alt="image"><span> </span>
+            <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt="image"><span> </span>
+            <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt="image">
+            <br>
+            <h4>info@companyname.com<label for=""></label>Санкт-Петербург<label for=""></label>+7 999 999 99 99<br>Невский проспект 11</h4></div>
          <div>
-            <img src="img/%D1%84%D0%B1.png" alt>
-            <img src="img/%D1%82%D0%B2%D0%B8%D1%82%D0%B5%D1%80.png" alt>
-            <img src="img/%D0%BC%D1%8F%D1%87.png" alt>
-            <img src="img/%D0%BA%D0%B8%D1%81%D0%B0.png" alt>
-            <img src="img/%D0%B8%D0%BD%D1%81%D1%82.png" alt>
-            <img src="img/%D0%B8%D0%BD.png" alt>
+             <div class="inp">
+                 <h3>Оставьте мне сообщение</h3>
+        <input type="text" name="text_input" value="" placeholder="Имя">
+            <input type="text" name="text_input" value="" placeholder="Email">
+           <br><textarea name="name" id="" cols="50" rows="10" placeholder="Сообщение"></textarea>
+             <br><input class="send" type="submit" value="Отправить">
+             </div>
          </div>
-         <h3>My Google Maps Demo</h3>
-         <img src="img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png" alt>
-         <p>Copyright © 2021 Андрей Браун. Design by Web</p>
+       </div>
+    <div class="map">
+       <div>
+           <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abec050fea1c80b669d976fb6c3fba7d8bcd06712de770f1319e24007a40aafbe&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+       </div>
+    </div>
+    <div class="end">
+         <h2>Copyright © 2021 Андрей Браун. Design by Web</h2>
+    </div>
+         
 
 </body>
+
 </html>

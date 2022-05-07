@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
+
 nav{
     width: 100%;
     height: 60px;
@@ -327,7 +328,7 @@ main{
 
 .textcols {
     display: nowrap;
-    width: 100%;
+    width: 200%;
     border-collapse: collapse;
     font-family: "Calibri";
     padding-right: 500px;
@@ -335,11 +336,18 @@ main{
 }
 
 
-.textcols-item {
+.textcols-item1 {
     display: table-cell;
     width: 50%;
     vertical-align: top;
     padding: 0;
+}
+
+.textcols-item2 {
+    display: table-cell;
+    width: 50%;
+    vertical-align: text-top;
+    
 }
 
 .blog3 input{
@@ -403,10 +411,71 @@ main{
     line-height: 2;
     
 }
+.static h2 {
+    text-align: center;
+}
 
 #logo, #text{
     float: none;
     margin-bottom: 100px; 
+}
+
+.calculator {
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-family: "Franklin Gothic Medium";
+    color: #263244;
+    
+}
+
+.calculator h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.calculator p {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 490px;
+}
+
+.calculator select {
+    margin-top: 23px;
+    margin-left: 490px;
+    font-size: 11px;
+    padding: 10px;
+    background: #eeeeee;
+    width: 880px;
+    color: #9a9a9a;
+    font-weight: bold;
+}
+
+
+.calculator h4 {
+    margin-top: 20px;
+    margin-left: 490px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.calculator label {
+    margin-left: 797px;
+}
+
+.calculator span {
+    margin-left: 828px;
+}
+
+
+.calculator input {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .blog4{
@@ -414,9 +483,15 @@ main{
     font-family: "Franklin Gothic Medium";
     font-size: 35px;
     margin-top: 100px;
-    margin-bottom: 50px;
-   
+ 
 }
+
+.otziv p{
+    font-family: Georgia, serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
 
 .myImg5{
     margin: 0 auto;
@@ -427,6 +502,92 @@ main{
     text-align: center;
     line-height: 2;
 }
+
+.radio{
+    text-align: center;
+     word-spacing: 15px;
+
+}
+
+.contacts{
+    width: 100%;
+    height: 100%;
+    background: url(../img/%D0%A4%D0%BE%D0%BD2.png) center/cover no-repeat;
+    
+}
+
+.contacts h2 {
+    margin-top: 70px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contacts > div {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contacts h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    
+}
+
+.contacts h4 {
+    margin-top: 15px;
+    color: white;
+    line-height: 150%;
+}
+
+
+.contacts span {
+    margin-left: 180px;
+}
+
+.contacts label {
+    margin-right: 100px;
+}
+
+.inp > input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 180px;
+}
+
+.inp textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 400px;
+}
+
+.send {
+    background: none;
+    color: white;
+    border: 2px solid #f9faff;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.end {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.end h2 {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
 
 
 
